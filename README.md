@@ -4,11 +4,11 @@
 
 ### 1. from pipenv
 * install pipenv (https://github.com/pypa/pipenv)
-* pipenv install
+* run ```pipenv install```
 
 ### 2. from requirements.txt
 * create venv with Python >= 3.6
-* pip install -r requirements.txt
+* run ```pip install -r requirements.txt```
 
 ## Run
 
