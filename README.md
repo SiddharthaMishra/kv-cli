@@ -5,6 +5,7 @@
 ### 1. from pipenv
 * install pipenv (https://github.com/pypa/pipenv)
 * pipenv install
+* pipenv shell (to activate the venv)
 
 ### 2. from requirements.txt
 * create venv with Python >= 3.6
