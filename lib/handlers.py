@@ -26,7 +26,7 @@ def get_handler(key, host):
             print('Invalid response from server.')
 
     except requests.exceptions.ConnectionError:
-        print(f"Could connect to resource at {host}")
+        print(f"Could not connect to resource at {host}")
 
 
 def put_handler(key, value, host):
@@ -35,7 +35,7 @@ def put_handler(key, value, host):
         r = requests.post(f'http://{host}/api', json=payload)
 
     except requests.exceptions.ConnectionError:
-        print(f'Could connect to resource at {host}')
+        print(f'Could not connect to resource at {host}')
 
 
 async def watch_handler(host):

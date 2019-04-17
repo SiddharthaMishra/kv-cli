@@ -2,13 +2,18 @@
 
 ## Dependancies
 
+### Download the source
+* git clone https://github.com/SiddharthaMishra/kv-cli.git
+* cd kv-cli
+
 ### 1. from pipenv
 * install pipenv (https://github.com/pypa/pipenv)
-* pipenv install
+* run ```pipenv install```
+* run ```pipenv shell``` to activate the venv
 
 ### 2. from requirements.txt
 * create venv with Python >= 3.6
-* pip install -r requirements.txt
+* run ```pip install -r requirements.txt```
 
 ## Run
 
