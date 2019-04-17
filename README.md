@@ -2,6 +2,10 @@
 
 ## Dependancies
 
+### Download the source
+* git clone https://github.com/SiddharthaMishra/kv-cli.git
+* cd kv-cli
+
 ### 1. from pipenv
 * install pipenv (https://github.com/pypa/pipenv)
 * pipenv install
